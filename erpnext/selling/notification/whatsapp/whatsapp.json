@@ -1,0 +1,30 @@
+{
+ "attach_print": 1,
+ "channel": "WhatsApp",
+ "condition": "",
+ "creation": "2023-02-23 14:01:16.405161",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "POS Invoice",
+ "enabled": 1,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Thank you ",
+ "modified": "2023-03-01 16:23:39.349899",
+ "modified_by": "Administrator",
+ "module": "Selling",
+ "name": "Whatsapp",
+ "owner": "Administrator",
+ "print_format": "POS Invoice",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "Sales Manager"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "twilio_number": "+1 510 344 5400"
+}

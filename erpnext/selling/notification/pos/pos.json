@@ -1,0 +1,30 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "creation": "2023-02-23 16:06:34.545445",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "POS Invoice",
+ "enabled": 1,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<h3>Order Overdue</h3>\n\n<p>Transaction {{ doc.name }} has exceeded Due Date. Please take necessary action.</p>\n\n<h4>Details</h4>\n\n<ul>\n<li>Customer: {{ doc.customer }}\n<li>Amount: {{ doc.grand_total }}\n</ul>",
+ "modified": "2023-02-23 16:06:34.545445",
+ "modified_by": "Administrator",
+ "module": "Selling",
+ "name": "POS",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "contact_email",
+   "receiver_by_role": "All"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "sender": "Gmail Account",
+ "sender_email": "shyambablu123@gmail.com",
+ "subject": "POS invoice:{{ doc.name }}"
+}

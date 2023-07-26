@@ -1,0 +1,27 @@
+{
+ "attach_print": 0,
+ "channel": "SMS",
+ "creation": "2023-02-23 16:12:00.209237",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "POS Invoice",
+ "enabled": 1,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Add your message here",
+ "modified": "2023-02-23 16:12:00.209237",
+ "modified_by": "Administrator",
+ "module": "Selling",
+ "name": "SMS",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "Customer"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0
+}
